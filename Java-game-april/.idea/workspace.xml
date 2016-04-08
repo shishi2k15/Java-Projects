@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b690596-0962-40aa-a550-05af691f4a90" name="Default" comment="" />
+    <list default="true" id="0b690596-0962-40aa-a550-05af691f4a90" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/input/KeyManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/input/KeyManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/Game.class" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/display/Display.class" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/display/Display.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/GameState.class" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/GameState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/MenuState.class" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/MenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/State.class" afterPath="$PROJECT_DIR$/out/production/Java-game-april/dev/codenmore/tilegame/states/State.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java" afterPath="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java" />
+    </list>
     <ignored path="Java-game-april.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,12 +37,50 @@
     <favorites_list name="Java-game-april" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="465">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2805#2806#0" expanded="true" />
+                <element signature="e#2838#2839#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/input/KeyManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,19 +88,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java">
+      <file leaf-file-name="MenuState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="45">
+              <caret line="3" column="35" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,13 +125,11 @@
         <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,13 +138,11 @@
       <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +156,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -126,31 +174,33 @@
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/gfx/ImageLoader.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/gfx/SpriteSheet.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/gfx/Assets.java" />
-        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java" />
-        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java" />
-        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/Entity.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Creature.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/player.java" />
-        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/input/KeyManager.java" />
         <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java" />
+        <option value="$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
-    <option name="y" value="-2" />
+    <option name="y" value="-26" />
     <option name="width" value="1374" />
-    <option name="height" value="742" />
+    <option name="height" value="797" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -168,12 +218,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,8 +563,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-2" width="1374" height="742" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="-26" width="1374" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -523,8 +573,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31881803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -588,12 +638,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,10 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,6 +711,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -655,10 +737,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,6 +747,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -692,10 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,6 +783,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,10 +809,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,6 +827,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,10 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,6 +855,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,10 +865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,6 +883,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,10 +893,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,6 +911,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,10 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,10 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -883,10 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,17 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="1387" column="0" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,38 +1005,49 @@
         <state relative-caret-position="120">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/MenuState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/input/KeyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -993,40 +1060,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Creature.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/display/Display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="63">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/entities/crreatures/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/states/GameState.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/codenmore/tilegame/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>

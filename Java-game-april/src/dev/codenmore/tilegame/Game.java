@@ -4,6 +4,7 @@ import dev.codenmore.tilegame.display.Display;
 import dev.codenmore.tilegame.gfx.Assets;
 import dev.codenmore.tilegame.gfx.ImageLoader;
 import dev.codenmore.tilegame.gfx.SpriteSheet;
+import dev.codenmore.tilegame.input.KeyManager;
 import dev.codenmore.tilegame.states.GameState;
 import dev.codenmore.tilegame.states.MenuState;
 import dev.codenmore.tilegame.states.State;
@@ -29,24 +30,31 @@ public class Game implements Runnable {
     private State gameState;
     private State menuState;
 
+    //Input
+    private KeyManager keyManager;
+
     private Thread thread;
 
     public Game(String title, int width, int height) {
         this.width = width;
         this.height = height;
         this.title = title;
+        keyManager = new KeyManager();
     }
 
     private void init(){
         display = new Display(title, width, height);
+        display.getFrame().addKeyListener(keyManager);
         Assets.init();
 
-        gameState = new GameState();
-        menuState = new MenuState();
+        gameState = new GameState(this);
+        menuState = new MenuState(this);
         State.setState(gameState);
     }
 
     private void tick(){
+        keyManager.tick();
+
         if(State.getState() != null){
             State.getState().tick();
         }
@@ -105,6 +113,10 @@ public class Game implements Runnable {
                 timer = 0;
             }
         }
+    }
+
+    public KeyManager getKeyManager(){
+        return keyManager;
     }
 
     public synchronized void start(){
