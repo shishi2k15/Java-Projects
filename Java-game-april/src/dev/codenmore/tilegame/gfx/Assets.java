@@ -16,9 +16,9 @@ public class Assets {
         playerFace = sheet.crop(width, 0, width, height);
         playerLeft = sheet.crop(width * 2, 0, width, height);
         playerBack = sheet.crop(width * 3, 0, width, height);
-        grass = sheet.crop(0, 0, height, width);
-        tree = sheet.crop(0, height, width, height);
-        stone = sheet.crop(0, height, width, height);
-        dirt = sheet.crop(0, height, width, height);
+        grass = sheet.crop(0, height, width, height);
+        tree = sheet.crop(width, height, width, height);
+        stone = sheet.crop(width * 2, height, width, height);
+        dirt = sheet.crop(width * 3, height, width, height);
     }
 }
