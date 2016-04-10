@@ -44,7 +44,7 @@ public  class Player extends Creature {
 
     @Override
     public void render(Graphics g) {
-        g.drawImage(Assets.playerRight, (int)(x - handler.getGameCamera().getxOffset()),
+        g.drawImage(Assets.player_down[0], (int)(x - handler.getGameCamera().getxOffset()),
                                         (int)(y - handler.getGameCamera().getyOffset()), width, height, null);
 //        g.setColor(Color.red); //// debug
 //        g.fillRect((int)(x + bounds.x - handler.getGameCamera().getxOffset()),
