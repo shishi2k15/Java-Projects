@@ -1,6 +1,9 @@
 package dev.codenmore.tilegame.worlds;
 
 import dev.codenmore.tilegame.Handler;
+import dev.codenmore.tilegame.entities.EntityManager;
+import dev.codenmore.tilegame.entities.crreatures.Player;
+import dev.codenmore.tilegame.entities.statics.Tree;
 import dev.codenmore.tilegame.tiles.Tile;
 import dev.codenmore.tilegame.utils.Utils;
 
@@ -13,13 +16,24 @@ public class World {
     private int spawnX, spawnY;
     private int[][] tiles;
 
+    //Entities
+    private EntityManager entityManager;
+
     public World(Handler handler, String path){
         this.handler = handler;
+        entityManager = new EntityManager(handler, new Player(handler, 100, 100));
+        entityManager.addEntity(new Tree(handler, 100, 250));
+        entityManager.addEntity(new Tree(handler, 200, 250));
+        entityManager.addEntity(new Tree(handler, 100, 350));
+
         loadWorld(path);
+
+        entityManager.getPlayer().setX(spawnX);
+        entityManager.getPlayer().setY(spawnY);
     }
 
     public void tick(){
-
+        entityManager.tick();
     }
 
     public void render(Graphics g){
@@ -34,6 +48,9 @@ public class World {
                                         (int)(y * Tile.TILEHEIGHT - handler.getGameCamera().getyOffset()));
             }
         }
+
+        //Entities
+        entityManager.render(g);
     }
 
     public Tile getTile(int x, int y){
@@ -71,5 +88,16 @@ public class World {
 
     public int getHeight(){
         return height;
+    }
+
+    //Getters and Setters
+
+
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
+
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
     }
 }
